@@ -24,6 +24,9 @@ export default function RandomizeColor() {
   
       e.target.style.backgroundColor=getRandomColor();
       
+      const title = document.querySelector("h1");
+      title.style.color = getRandomColor();
+      
     }
 
   function getRandomColor (){
