@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import Title from "../components/Title";
 
 export default function RandomizeColor() {
+
+  const [color, setColor] = useState("#222222")
+  const [bodyColor, setBodyColor] = useState("#121212");
+
   function handleClick(event) {
         console.log("Click");
         console.log(event.target);
@@ -9,25 +13,16 @@ export default function RandomizeColor() {
         event.target.style.backgroundColor=getRandomColor();
 
         // To change title as button is clicked
-        const title = document.querySelector("h1");
 
-        title.style.color = getRandomColor();
+        setColor(getRandomColor());
 
     }
 
-    const handleSetClick = (e) => {
-      console.log(e.target);
-      console.log(getRandomColor());
-  
-      let body = document.querySelector("body");
-      body.style.background = getRandomColor();
-  
-      e.target.style.backgroundColor=getRandomColor();
+  const handleSetClick = (e) => {
+    setBodyColor(getRandomColor());
+  }
+
       
-      const title = document.querySelector("h1");
-      title.style.color = getRandomColor();
-      
-    }
 
   function getRandomColor (){
     // HEX COLORS
@@ -42,8 +37,8 @@ export default function RandomizeColor() {
 
   }
   return (
-    <div className="container" m-auto text-center>
-      <Title text={"Randomize Color"} classes={"mb-4"} />
+    <div className="container" m-auto text-center style={{ backgroundColor: bodyColor }}>
+      <Title color={color} text={"Randomize Color"} classes={"mb-4"} />
 
       <button
         className="btn btn-danger"
