@@ -13,9 +13,12 @@ export default function LikePhotoApp() {
     const toggleLike = () => {
         if (!like) {
             setLike(true);
+            setCount(count + 1);
         }
         else {
             setLike(false);
+            setCount(count - 1);
+
         }
     }
     return (
@@ -24,7 +27,7 @@ export default function LikePhotoApp() {
             <Title classes={"subtitle"} text={`Likes: ${count}`} />
 
             <div
-                className="card card-dark m-auto"
+                className="card card-dark m-auto shadow-sm"
                 style={{ width: 300, cursor: "pointer" }}
             >
                 <div className="card-header fs-xl">
@@ -32,9 +35,9 @@ export default function LikePhotoApp() {
                     <small>Doggy Dog</small>
                 </div>
 
-                <img src={Picture} alt="img" srcset="" style={{ height: "fit-content" }} />
+                <img src={Picture} alt="img" srcset="" style={{ height: "fit-content" }} onDoubleClick={toggleLike} />
 
-                <div className="card-footer fs-xl d-flex" style={{ justifyContent: "space-between" }}>
+                <div className="card-footer fs-xl d-flex" style={{ justifyContent: "space-between" }} >
 
 
                     <AiOutlineComment />
