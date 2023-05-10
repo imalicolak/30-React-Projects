@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -21,12 +22,15 @@ body {
   max-width: 900px;
   margin: 0 auto;
 }
+
 .container.container-sm {
   max-width: 782px;
 }
+
 .container.container-md {
   max-width: 1280px;
 }
+
 .container.container-lg {
   max-width: 1440px;
 }
@@ -36,15 +40,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .d-flex.flex-column {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .space-between {
   justify-content: space-between;
 }
+
 .d-grid {
   display: grid;
 }
@@ -65,9 +72,11 @@ body {
 .text-justify {
   text-align: justify;
 }
+
 .text-uppercase {
   text-transform: uppercase;
 }
+
 /*Font size*/
 .fs-sm {
   font-size: 0.75rem;
@@ -88,9 +97,11 @@ body {
 .fs-xxl {
   font-size: 3.75rem;
 }
+
 .fw-bold {
   font-weight: bold;
 }
+
 /* Padding classes*/
 .p-1 {
   padding: 1rem;
@@ -236,9 +247,11 @@ body {
 .m-auto {
   margin: auto;
 }
+
 .mx-auto {
   margin: auto 0;
 }
+
 .mt-1 {
   margin-top: 1rem;
 }
@@ -373,6 +386,7 @@ body {
   font-weight: 500;
   margin: 3rem 0;
 }
+
 .title-main {
   font-size: 5rem;
   font-weight: 600;
@@ -563,6 +577,7 @@ body {
   box-shadow: 0 2px 5px rgba(51, 51, 51, 0.3);
   transition: 0.3s ease;
 }
+
 .btn:hover,
 .btn-whatsapp:hover,
 .btn-youtube:hover,
@@ -591,6 +606,7 @@ body {
   background-color: #7633f9;
   color: white;
 }
+
 .btn-primary:hover {
   background: rgba(118, 51, 249, 0.75);
 }
@@ -599,6 +615,7 @@ body {
   background-color: #ff9800;
   color: white;
 }
+
 .btn-secondary:hover {
   background: rgba(255, 152, 0, 0.75);
 }
@@ -607,6 +624,7 @@ body {
   background-color: #28a745;
   color: white;
 }
+
 .btn-success:hover {
   background: rgba(40, 167, 69, 0.75);
 }
@@ -615,6 +633,7 @@ body {
   background-color: #dc3545;
   color: white;
 }
+
 .btn-danger:hover {
   background: rgba(220, 53, 69, 0.75);
 }
@@ -624,6 +643,7 @@ body {
   color: white;
   color: #000;
 }
+
 .btn-warning:hover {
   background: rgba(255, 193, 7, 0.75);
 }
@@ -632,6 +652,7 @@ body {
   background-color: #17a2b8;
   color: white;
 }
+
 .btn-info:hover {
   background: rgba(23, 162, 184, 0.75);
 }
@@ -640,6 +661,7 @@ body {
   background-color: #f8f9fa;
   color: black;
 }
+
 .btn-light:hover {
   background: rgba(248, 249, 250, 0.75);
 }
@@ -648,6 +670,7 @@ body {
   background-color: #343a40;
   color: white;
 }
+
 .btn-dark:hover {
   background: rgba(52, 58, 64, 0.75);
 }
@@ -656,6 +679,7 @@ body {
   background-color: #284ea7;
   color: white;
 }
+
 .btn-accept:hover {
   background: rgba(40, 78, 167, 0.75);
 }
@@ -664,6 +688,7 @@ body {
   background-color: #1877f2;
   color: white;
 }
+
 .btn-facebook-light:hover {
   background: rgba(24, 119, 242, 0.75);
 }
@@ -672,6 +697,7 @@ body {
   background-color: #3b5998;
   color: white;
 }
+
 .btn-facebook-dark:hover {
   background: rgba(59, 89, 152, 0.75);
 }
@@ -680,6 +706,7 @@ body {
   background-color: #1da1f2;
   color: white;
 }
+
 .btn-twitter:hover {
   background: rgba(29, 161, 242, 0.75);
 }
@@ -688,6 +715,7 @@ body {
   background-color: #db4437;
   color: white;
 }
+
 .btn-google:hover {
   background: rgba(219, 68, 55, 0.75);
 }
@@ -696,6 +724,7 @@ body {
   background-color: #e1306c;
   color: white;
 }
+
 .btn-instagram:hover {
   background: rgba(225, 48, 108, 0.75);
 }
@@ -704,6 +733,7 @@ body {
   background-color: #ff0000;
   color: white;
 }
+
 .btn-youtube:hover {
   background: rgba(255, 0, 0, 0.75);
 }
@@ -712,6 +742,7 @@ body {
   background-color: #25d366;
   color: white;
 }
+
 .btn-whatsapp:hover {
   background: rgba(37, 211, 102, 0.75);
 }
@@ -741,17 +772,21 @@ body {
   box-shadow: none;
   padding: 0;
 }
+
 .btn-close:hover {
   color: #dc3545;
   background: initial;
 }
+
 .btn-close-white {
   background-color: #fff;
   color: #333;
 }
+
 .btn-close-white:hover {
   color: #fff;
 }
+
 .btn-close-dark {
   background-color: #111;
   color: #fff;
@@ -786,6 +821,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .alert-close {
   width: 100%;
   display: flex;
@@ -893,7 +929,7 @@ body {
 }
 
 .fadeAlert {
-  animation: fadeAlert 0.5s ease-in-out;
+  animation: fadeAlert 0.3s ease-in-out;
 }
 
 @keyframes fadeAlert {
@@ -901,11 +937,13 @@ body {
     opacity: 1;
     transform: scale(1);
   }
+
   100% {
     opacity: 0;
     transform: scale(0);
   }
 }
+
 /*Cards  */
 .card {
   display: flex;
@@ -916,11 +954,13 @@ body {
   border-radius: 0.5rem;
   /*Card Header and Footer*/
 }
+
 .card-body {
   width: 100%;
   padding: 1rem;
   border-radius: 0.5rem;
 }
+
 .card-body .btn,
 .card-body .btn-primary,
 .card-body .btn-secondary,
@@ -940,16 +980,19 @@ body {
 .card-body .btn-whatsapp {
   margin-bottom: 2rem;
 }
+
 .card-title {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
+
 .card-text {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
 .card-header,
 .card-footer {
   background-color: rgba(0, 0, 0, 0.05);
@@ -960,6 +1003,7 @@ body {
   border-top-right-radius: 0.5rem;
   border-bottom: 1px solid rgba(102, 102, 102, 0.125);
 }
+
 .card-footer {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -968,6 +1012,7 @@ body {
   border-bottom: none;
   border-top: 1px solid rgba(102, 102, 102, 0.125);
 }
+
 .card img {
   width: 100%;
   height: fit-content;
@@ -978,6 +1023,7 @@ body {
 .card-primary {
   border: 1px solid #7633f9;
 }
+
 .card-primary .card-header,
 .card-primary .card-footer {
   background-color: #7633f9;
@@ -987,6 +1033,7 @@ body {
 .card-secondary {
   border: 1px solid #ff9800;
 }
+
 .card-secondary .card-header,
 .card-secondary .card-footer {
   background-color: #ff9800;
@@ -996,6 +1043,7 @@ body {
 .card-success {
   border: 1px solid #28a745;
 }
+
 .card-success .card-header,
 .card-success .card-footer {
   background-color: #28a745;
@@ -1005,6 +1053,7 @@ body {
 .card-danger {
   border: 1px solid #dc3545;
 }
+
 .card-danger .card-header,
 .card-danger .card-footer {
   background-color: #dc3545;
@@ -1014,6 +1063,7 @@ body {
 .card-warning {
   border: 1px solid #ffc107;
 }
+
 .card-warning .card-header,
 .card-warning .card-footer {
   background-color: #ffc107;
@@ -1023,6 +1073,7 @@ body {
 .card-info {
   border: 1px solid #17a2b8;
 }
+
 .card-info .card-header,
 .card-info .card-footer {
   background-color: #17a2b8;
@@ -1032,6 +1083,7 @@ body {
 .card-light {
   border: 1px solid #f8f9fa;
 }
+
 .card-light .card-header,
 .card-light .card-footer {
   background-color: #f8f9fa;
@@ -1041,6 +1093,7 @@ body {
 .card-dark {
   border: 1px solid #343a40;
 }
+
 .card-dark .card-header,
 .card-dark .card-footer {
   background-color: #343a40;
@@ -1050,6 +1103,7 @@ body {
 .card-accept {
   border: 1px solid #284ea7;
 }
+
 .card-accept .card-header,
 .card-accept .card-footer {
   background-color: #284ea7;
@@ -1059,6 +1113,7 @@ body {
 .card-facebook-light {
   border: 1px solid #1877f2;
 }
+
 .card-facebook-light .card-header,
 .card-facebook-light .card-footer {
   background-color: #1877f2;
@@ -1068,6 +1123,7 @@ body {
 .card-facebook-dark {
   border: 1px solid #3b5998;
 }
+
 .card-facebook-dark .card-header,
 .card-facebook-dark .card-footer {
   background-color: #3b5998;
@@ -1077,6 +1133,7 @@ body {
 .card-twitter {
   border: 1px solid #1da1f2;
 }
+
 .card-twitter .card-header,
 .card-twitter .card-footer {
   background-color: #1da1f2;
@@ -1086,6 +1143,7 @@ body {
 .card-google {
   border: 1px solid #db4437;
 }
+
 .card-google .card-header,
 .card-google .card-footer {
   background-color: #db4437;
@@ -1095,6 +1153,7 @@ body {
 .card-instagram {
   border: 1px solid #e1306c;
 }
+
 .card-instagram .card-header,
 .card-instagram .card-footer {
   background-color: #e1306c;
@@ -1104,6 +1163,7 @@ body {
 .card-youtube {
   border: 1px solid #ff0000;
 }
+
 .card-youtube .card-header,
 .card-youtube .card-footer {
   background-color: #ff0000;
@@ -1113,6 +1173,7 @@ body {
 .card-whatsapp {
   border: 1px solid #25d366;
 }
+
 .card-whatsapp .card-header,
 .card-whatsapp .card-footer {
   background-color: #25d366;
@@ -1130,6 +1191,7 @@ body {
   padding: 1rem;
   user-select: none;
 }
+
 .navbar-logo {
   width: 100%;
   display: flex;
@@ -1138,39 +1200,48 @@ body {
   justify-content: space-between;
   margin-right: 1rem;
 }
+
 .navbar-brand {
   margin-left: 1rem;
   color: inherit;
 }
+
 .navbar-toggler {
   display: none;
   margin-left: auto;
 }
+
 @media screen and (max-width: 768px) {
   .navbar-toggler {
     display: block;
     margin-right: 1rem;
   }
 }
+
 .navbar-nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 @media screen and (max-width: 768px) {
   .navbar-nav {
     display: none;
   }
 }
+
 .navbar-nav .nav-item {
   margin-right: 1rem;
 }
+
 .navbar-nav .nav-item:hover {
   text-decoration: underline;
 }
+
 .navbar-nav .nav-link {
   color: inherit;
 }
+
 .navbar-nav.showNavbar {
   display: flex;
   align-items: flex-start;
@@ -1179,6 +1250,7 @@ body {
   margin: 15px;
   width: 100%;
 }
+
 .navbar.showNavbar {
   display: flex;
   align-items: flex-start;
@@ -1202,27 +1274,35 @@ body {
   padding: 0.5rem;
   width: 100%;
 }
+
 .shadow-sm {
   box-shadow: 0 2px 8px 3px rgba(0, 0, 0, 0.15);
 }
+
 .shadow-md {
   box-shadow: 0 2px 10px 5px rgba(0, 0, 0, 0.35);
 }
+
 .border-0 {
   border-radius: 0;
 }
+
 .border-5 {
   border-radius: 5px;
 }
+
 .border-10 {
   border-radius: 10px;
 }
+
 .border-15 {
   border-radius: 15px;
 }
+
 .border-20 {
   border-radius: 20px;
 }
+
 .border-50 {
   border-radius: 50%;
 }
