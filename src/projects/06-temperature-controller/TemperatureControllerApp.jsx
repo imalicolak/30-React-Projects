@@ -22,7 +22,7 @@ function TemperatureControllerApp() {
                     className={`text-light card border-50 ${temperature > 0 ? 'bg-danger' : 'bg-info'}`}
                     style={{ height: 150, width: 150, border: '2px solid #666' }}
                 >
-                    {temperature}
+                    {temperature} °C
                 </h1>
                 <div className="d-flex my-2">
                     <Button

@@ -1,5 +1,6 @@
 import "./App.css";
-import TemperatureControllerApp from "./projects/06-temperature-controller/TemperatureControllerApp";
+import LightAndDarkMode from "./projects/07-light-and-dark-mode/LightAndDarkMode";
+// import TemperatureControllerApp from "./projects/06-temperature-controller/TemperatureControllerApp";
 // import AlertApp from "./projects/05-Alerts/AlertApp";
 // import TestimonialsApp from "./projects/04-testimonials-app/TestimonialsApp";
 // import LikePhotoApp from './projects/03-like-my-photo/LikePhotoApp';
@@ -14,7 +15,8 @@ function App() {
       {/* <LikePhotoApp /> */}
       {/* <TestimonialsApp /> */}
       {/* <AlertApp /> */}
-      <TemperatureControllerApp />
+      {/* <TemperatureControllerApp /> */}
+      <LightAndDarkMode />
     </div>
   );
 }
